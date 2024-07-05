@@ -1,4 +1,3 @@
-
 import {BsSearch} from 'react-icons/bs'
 
 import './index.css'

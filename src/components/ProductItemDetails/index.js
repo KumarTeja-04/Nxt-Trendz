@@ -1,4 +1,3 @@
-
 import {Component} from 'react'
 import {Link} from 'react-router-dom'
 import Cookies from 'js-cookie'
@@ -163,6 +162,7 @@ class ProductItemDetails extends Component {
                   <button
                     type="button"
                     className="quantity-controller-button"
+                    aria-label="Mute volume"
                     onClick={this.onDecrementQuantity}
                     data-testid="minus"
                   >
@@ -172,6 +172,7 @@ class ProductItemDetails extends Component {
                   <button
                     type="button"
                     className="quantity-controller-button"
+                    aria-label="Mute volume"
                     onClick={this.onIncrementQuantity}
                     data-testid="plus"
                   >
